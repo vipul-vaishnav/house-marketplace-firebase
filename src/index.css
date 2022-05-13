@@ -216,7 +216,8 @@ button {
   cursor: pointer;
   color: #00cc66;
   font-weight: 600;
-  text-align: right;
+  max-width: fit-content;
+  float: right;
 }
 
 .signInBar,

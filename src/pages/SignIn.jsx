@@ -56,6 +56,7 @@ const SignIn = () => {
             id="email"
             value={email}
             onChange={onChange}
+            autoComplete="off"
           />
 
           <div className="passwordInputDiv">
@@ -66,6 +67,7 @@ const SignIn = () => {
               id="password"
               value={password}
               onChange={onChange}
+              autoComplete="off"
             />
 
             <img

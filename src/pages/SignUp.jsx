@@ -69,6 +69,7 @@ const SignUp = () => {
             id="name"
             value={name}
             onChange={onChange}
+            autoComplete="off"
           />
           <input
             type="email"
@@ -77,6 +78,7 @@ const SignUp = () => {
             id="email"
             value={email}
             onChange={onChange}
+            autoComplete="off"
           />
 
           <div className="passwordInputDiv">
@@ -87,6 +89,7 @@ const SignUp = () => {
               id="password"
               value={password}
               onChange={onChange}
+              autoComplete="off"
             />
 
             <img
