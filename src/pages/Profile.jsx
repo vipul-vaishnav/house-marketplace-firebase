@@ -85,6 +85,7 @@ const Profile = () => {
                 disabled={!changeDetails}
                 value={name}
                 onChange={onChange}
+                autoComplete="off"
               />
               <input
                 type="text"
@@ -93,6 +94,7 @@ const Profile = () => {
                 disabled={!changeDetails}
                 value={email}
                 onChange={onChange}
+                autoComplete="off"
               />
             </form>
           </div>
